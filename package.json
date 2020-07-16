@@ -2,6 +2,7 @@
     "private": true,
     "scripts": {
         "dev": "php artisan serve",
+        "migrate": "php artisan migrate",
         "db:fresh": "php artisan migrate:fresh --seed"
     },
     "devDependencies": {
